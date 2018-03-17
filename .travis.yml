@@ -1,6 +1,9 @@
 language: node_js
 node_js:
-- 9
+  - "stable"
+cache:
+  directories:
+  - node_modules
 install:
   - pip install --user awscli
 deploy:
@@ -8,7 +11,7 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: camtowns-first-site
-  local-dir: ./
+  local-dir: build
   skip_cleanup: true
   region: us-east-2
   on:
