@@ -18,4 +18,5 @@ deploy:
     branch: master
 
 script:
-  echo "Hello World"
+  - npm test
+  - npm run build
