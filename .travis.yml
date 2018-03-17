@@ -18,6 +18,6 @@ deploy:
     branch: master
 
 script:
-  - npm install -g create-react-app
+  - npm install -g react-scripts
   - npm test
   - npm run build
