@@ -6,6 +6,11 @@ cache:
   - node_modules
 install:
   - pip install --user awscli
+script:
+  - npm install react
+  - npm install -g react-scripts
+  - npm test
+  - npm run build
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY_ID
@@ -16,9 +21,6 @@ deploy:
   region: us-east-2
   on:
     branch: master
-
-script:
-  - npm install react
-  - npm install -g react-scripts
-  - npm test
-  - npm run build
+after_deploy:
+  - aws configure set preview.cloudfront true
+  - test $TRAVIS_BRANCH = "master" && aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
