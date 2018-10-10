@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, OverlayTrigger, Tooltip } from 'react-bootstrap';
+import { OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 
 function LinkWithTooltip({ id, children, href, tooltip }) {
