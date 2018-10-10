@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {PageHeader, Grid, Row, Col} from "react-bootstrap"
+import {Grid, Row, Col} from "react-bootstrap"
 
 class Resume extends Component {
   render() {
