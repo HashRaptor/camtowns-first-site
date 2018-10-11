@@ -38,3 +38,7 @@ ul.header li a {
 li {
   margin: 1px 1px 1px 1px;
 }
+
+h1.resume-header {
+  margin-top: 0px;
+}
