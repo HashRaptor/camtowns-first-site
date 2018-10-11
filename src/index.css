@@ -41,4 +41,7 @@ li {
 
 h1.resume-header {
   margin-top: 0px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
