@@ -70,8 +70,6 @@ const skyparlorInternship = {
     "Quality assurance and usability testing"]
 };
 
-const style = { display: 'flex', justifyContent: 'center', alignItems: 'center'}
-
 class Resume extends Component {
   render() {
     return (
