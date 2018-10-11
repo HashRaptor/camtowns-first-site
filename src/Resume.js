@@ -22,10 +22,10 @@ function JobListing({ title, dates, responsibilities }) {
 const currentJob = {
   title: "Software Developer, AAA National",
   workingDates: "Nov 2015 - Current",
-  responsibilities: [ "Develops full stack features based on requirements for Connect Suite",
-    "Optimizes and enhances the application using automated tests with jUnit and Selenium.",
+  responsibilities: [ "Developed a solution to leverage Chase Paymentech SDK to process payments without the application.",
+    "Implemented a modern software development environment by setting up Continuous Integration, Continuous Deployment, automated Selenium testing and development environments using Jenkins.",
     "Participates in daily scrum meetings and bi weekly sprint planning",
-    "Maintains a steady codebase with GIT and code reviews"]
+    "Migrated from SVN to GIT, while moving the team to a gitflow model"]
 };
 
 const deloitteJob = {
