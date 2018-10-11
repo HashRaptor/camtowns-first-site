@@ -77,14 +77,38 @@ class Resume extends Component {
         <Grid>
           <Row >
             <Col xs={6} md={4} className="text-center">
-            <h1>Skills</h1>
+              <h1 class="resume-header">Skills</h1>
             </Col>
             <Col xs={12} md={8}>
-                Java 8, JSP, Servlets, JMS, Java API for RESTful Web Services (JAX-RS), PowerMock, HTML, JavaScript, JQuery, SQL, Maven, MyBatis, Selenium, H2
+                <Col md={3}>
+                  <li>Java 8</li>
+                  <li>JSP</li>
+                  <li>Servlets</li>
+                  <li>JMS</li>
+                </Col>
+                <Col md={3}>
+                  <li>PowerMock</li>
+                  <li>HTML</li>
+                  <li>JavaScript</li>
+                  <li>reactJS</li>
+                </Col>
+                <Col md={3}>
+                  <li>JQuery</li>
+                  <li>SQL</li>
+                  <li>MyBatis</li>
+                  <li>Maven</li>
+                </Col>
+                <Col md={3}>
+                  <li>Selenium</li>
+                  <li>H2</li>
+                  <li>Jenkins</li>
+                  <li>AWS</li>
+                </Col>
+
             </Col>
           </Row>
           <hr />
-            <h1 class="resume-header text-center">JOB HISTORY</h1>
+            <h1 class="resume-header text-center">Experience</h1>
             <Row >
               <JobListing title={currentJob.title}
                           dates={currentJob.workingDates}
