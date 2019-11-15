@@ -20,47 +20,54 @@ function JobListing({ title, dates, responsibilities }) {
 
 
 const currentJob = {
-  title: "Software Developer, AAA National",
+  title: "Software Development Lead, AAA National",
   workingDates: "Nov 2015 - Current",
-  responsibilities: [ "Developed a solution to leverage Chase Paymentech SDK to process payments within the application.",
-    "Implemented a modern software development environment by setting up Continuous Integration, Continuous Deployment, automated Selenium testing and development environments using Jenkins.",
-    "Participates in daily scrum meetings and bi weekly sprint planning",
-    "Migrated from SVN to GIT, while moving the team to a gitflow model"]
+  responsibilities: [ "Developed full stack features based on requirements for Connect Suite",
+    "Implemented various RESTful endpoints to expand application capabilities",
+    "Implemented unit tests using JUnit and PowerMockito and automated tests with Selenium",
+    "Participated in daily scrum meetings and bi weekly sprint planning",
+    "Diagnosed and resolved defects across all aspects of the system including the UI layer, the service layer, and the database layer",
+    "Handled the CD/CI of the builds using Jenkins",
+    "Produced technical documentation describing application workflow and design specifications",
+    "Maintained a steady codebase using Git version control, while sunsetting the SVN codebase."]
 };
 
 const deloitteJob = {
   title: "Solution Developer, Deloitte",
   workingDates: "Apr 2015 - Nov 2015",
-  responsibilities: [ "Lead on case creation and federal file interfaces",
-    "Handles partner integration meetings",
-    "Data reporting",
-    "Quality assurance"]
+  responsibilities: [ "Quality assurance",
+    "Lead on case creation and federal file interfaces",
+    "Handled partner integration meetings"]
 };
 
 const aaaContractJob = {
   title: "Software Engineer Contractor, AAA National",
   workingDates: "Oct 2013 - Mar 2015",
-  responsibilities: [ "Develops full stack features based on requirements for AAA’s D3 Roadside assistance software",
-    "Handles the creation and maintenance of unit and integration tests",
-    "Maintains a steady codebase with SVN and code reviews"]
+  responsibilities: [ "Developed and maintained the user interface using HTML, CSS, Sass, JavaScript, and jQuery for AAA’s D3 Roadside assistance software.",
+    "Optimized and enhanced the application using Java 7 and jUnit tests. ",
+    "Implemented all aspects of the software from end user interface using HTML and JavaScript through database interactions using Java 7, Oracle, and MyBatis",
+    "Maintained a steady codebase using SVN version control"]
 };
 
 const indieboxJob = {
-  title: "Full Stack Developer, Indiebox",
+  title: "Full Stack Developer, IndieBox",
   workingDates: "May 2014 - May 2015",
-  responsibilities: [ "Develops and maintains the shipping and financial tools using Ruby on Rails scripts",
-    "Maintains a steady codebase with GIT and code reviews",
-    "Develops full stack features",
-    "Quality assurance"]
+  responsibilities: [ "Developed the shipping and financial tools using Ruby on Rails scripts",
+    "Agile work environment",
+    "Implemented new front-end features using HTML, CSS, JavaScript, jQuery, Bootstrap, Wordpress, PHP and Less",
+    "Maintained a steady codebase using Git version control",
+    "Worked as large conference staff when needed"]
 };
 
 const skyparlorJob = {
   title: "Software Engineer, Sky Parlor Studios",
   workingDates: "Jun 2012 - Aug 2013",
   responsibilities: [ "Ideation prototyping",
-    "Develops and maintains the user interface",
-    "Develops native (Objective-C and Java) plugins",
-    "Develops automated push notification and mailer service"]
+    "Developed and maintained the user interface",
+    "Quality assurance and usability testing",
+    "Developed native (Objective-C and Java) plugins",
+    "Developed an automated push notification and mailer service using Java and the Mandrill API",
+    "Developed a group and chat system for users using Java 7 and a MySQL database"]
 };
 
 const skyparlorInternship = {
