@@ -9,7 +9,7 @@ install:
 script:
   - npm install react
   - npm install -g react-scripts
-  - npm test
+  - npm test --passWithNoTests
   - npm run build
 deploy:
   provider: s3
